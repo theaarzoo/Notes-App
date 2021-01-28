@@ -27,9 +27,9 @@ you design robust, testable, and maintainable apps. Used Kotlin for build.
 </thead>
 <tbody>
 <tr>
-<td> <img src="screeshot/home.png" width="150" ></td>
-<td> <img src="screeshot/note.png" width="150" ></td>
-<td> <img src="screeshot/sort.png" width="150" ></td>
+<td> <img src="screenshot/home.png" width="150" ></td>
+<td> <img src="screenshot/note.png" width="150" ></td>
+<td> <img src="screenshot/sort.png" width="150" ></td>
 </tr>
 </tbody>
 </table>
@@ -40,10 +40,10 @@ you design robust, testable, and maintainable apps. Used Kotlin for build.
 MVVM is one of the architectural patterns which enhances separation of concerns, it allows
 separating the user interface logic from the business (or the back-end) logic. Its target 
 (with other MVC patterns goal) is to achieve the following principle “Keeping UI code simple 
-and free of screeshot logic in order to make it easier to manage”.
+and free of screenshot logic in order to make it easier to manage”.
 
 <ul>
-<li>Lifecycles: It manages activity and fragment lifecycles of our screeshot, survives configuration changes,
+<li>Lifecycles: It manages activity and fragment lifecycles of our screenshot, survives configuration changes,
 avoids memory leaks and easily loads data into our UI.</li>
 <li>LiveData: It notifies views of any database changes. Use LiveData to build data objects that notify views when
 the underlying database changes.</li>
@@ -51,7 +51,7 @@ the underlying database changes.</li>
 convert SQLite table data to Java objects. Room provides compile time checks of SQLite statements
 and can return RxJava, Flowable and LiveData observables.</li>
 <li>ViewModel: It manages UI-related data in a lifecycle-conscious way. It stores UI-related data
-that isn't destroyed on screeshot rotations.</li>
+that isn't destroyed on screenshot rotations.</li>
 <li>Repository: The repository depends on a persistent data model and a remote backend data source.</li>
 
 <br>
